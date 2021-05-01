@@ -33,7 +33,7 @@ public class TorpedoStore {
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
       throw new IllegalArgumentException("numberOfTorpedos");
     }
-
+    //mindenszupiszuper
     boolean success = false;
 
     double r = generator.nextDouble();
